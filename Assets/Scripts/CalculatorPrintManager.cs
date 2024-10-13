@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿//**THIS CODE WAS/IS WRITTEN BY Daniel Snytkin, AKA Daniel_4_Fun or Daniel-4-Fun**//
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
-using static System.Net.Mime.MediaTypeNames;
 
 public class CalculatorPrintManager : MonoBehaviour
 {
