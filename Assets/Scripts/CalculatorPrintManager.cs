@@ -5,8 +5,8 @@ using UnityEngine;
 public class CalculatorPrintManager : MonoBehaviour
 {
     public TMP_InputField inputField;
-
-    public TextMeshProUGUI result;
+    public TextMeshProUGUI textForDebug;
+   
     public float number1 = 0f;
     public float number2 = 0f;
     public string NumberOperation;
@@ -23,29 +23,35 @@ public class CalculatorPrintManager : MonoBehaviour
         number1 = float.Parse(inputField.text);
         NumberOperation = ("+");
         inputField.text = "";
+        textForDebug.text = "+";
     }
     public void Subtraction()
     {
         number1 = float.Parse(inputField.text);
         NumberOperation = ("-");
         inputField.text = "";
+        textForDebug.text = "-";
     }
     public void Division()
     {
         number1 = float.Parse(inputField.text);
         NumberOperation = ("/");
         inputField.text = "";
+        textForDebug.text = "÷";
     }
     public void Multiplication()
     {
         number1 = float.Parse(inputField.text);
         NumberOperation = ("*");
         inputField.text = "";
+        textForDebug.text = "×";
+
     }
     //**Remove the numbers we have (backspace but better)**//
     public void OnClickRemoveButton()
     {
         inputField.text = "";
+        textForDebug.text = "";
     }
 
     //**Print the result**//

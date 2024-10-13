@@ -4838,7 +4838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputField: {fileID: 326741887}
-  result: {fileID: 0}
+  textForDebug: {fileID: 1314689940}
   number1: 0
   number2: 0
   NumberOperation: 
