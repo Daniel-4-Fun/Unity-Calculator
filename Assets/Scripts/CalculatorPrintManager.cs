@@ -51,7 +51,7 @@ public class CalculatorPrintManager : MonoBehaviour
     public void OnClickRemoveButton()
     {
         inputField.text = "";
-        textForDebug.text = "";
+        textForDebug.text = "Calculate...";
     }
 
     //**Print the result**//
